@@ -19,6 +19,33 @@ form {
   text-align: center;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 99%;
+    background: #3498db;
+    padding: 0rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #3498db;   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0rem;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+nav a {
+    color: Black;
+    text-decoration: none;
+}
 label {
   display: block;
   margin-bottom: 10px;
@@ -26,7 +53,7 @@ label {
 
 input {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #3498db;
   border-radius: 4px;
 }
 
@@ -52,7 +79,7 @@ ul {
 }
 
 li {
-  background-color: #ecf0f1;
+  background-color: #3498db;
   margin-bottom: 8px;
   padding: 10px;
   border-radius: 4px;
