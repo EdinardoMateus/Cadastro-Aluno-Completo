@@ -1,19 +1,19 @@
-# ENTREVISTA COM O CLIENTE – GREENTECH
+# ENTREVISTA COM O CLIENTE –Unifecaf
 
 ## Objetivo do documento
 Registrar as respostas do cliente que deram origem aos requisitos e às Issues do projeto.
 
 ## 1. OBJETIVO DO SITE
 
-**Pergunta:** Qual é o principal objetivo dessa landing page?
+**Pergunta:** Qual é o principal objetivo da web page ?
 
-**Resposta:** Apresentar a GreenTech e captar contatos de pessoas interessadas em nossas soluções sustentáveis.
+**Resposta:** É cadastra os alunos na nova unidade de ensino.
 
 ## 2. MODELO DE NEGÓCIO
 
-**Pergunta:** O site terá venda direta ou apenas captação de contatos?
+**Pergunta:** O site terá outras finalidade alem do cadastro ?
 
-**Resposta:** Apenas captação de contatos. Não haverá venda direta neste momento.
+**Resposta:** Apenas cadastro de alunos. E informações da universidade.
 
 ## 3. SEÇÕES DA PÁGINA
 
@@ -31,7 +31,7 @@ Registrar as respostas do cliente que deram origem aos requisitos e às Issues d
 
 **Pergunta:** Existe alguma preferência de cores ou estilo visual?
 
-**Resposta:** Queremos algo simples, moderno e que remeta à sustentabilidade. Tons de verde são recomendados.
+**Resposta:** Queremos algo simples, moderno e que remeta à sustentabilidade. Tons de azul são recomendados.
 
 ## 6. EXPERIÊNCIA EM DISPOSITIVOS MÓVEIS
 
@@ -43,13 +43,13 @@ Registrar as respostas do cliente que deram origem aos requisitos e às Issues d
 
 **Pergunta:** Quais informações devem ser coletadas no formulário?
 
-**Resposta:** Nome e e-mail são suficientes neste primeiro momento.
+**Resposta:** Nome idade e turma são suficientes momento.
 
 ## 8. COMPORTAMENTO APÓS ENVIO
 
 **Pergunta:** O que deve acontecer após o envio do formulário?
 
-**Resposta:** Exibir uma mensagem confirmando que o formulário foi enviado com sucesso, sem salvar os dados em banco.
+**Resposta:** Exibir listas de alunos cadastrados, sem salvar os dados em banco.
 
 ## 9. QUALIDADE DO CÓDIGO
 
@@ -67,17 +67,17 @@ Registrar as respostas do cliente que deram origem aos requisitos e às Issues d
 
 ## REQUISITOS FUNCIONAIS
 
-- **RF01:** Exibir informações institucionais da GreenTech
+- **RF01:** Exibir informações da universidade 
 - **RF02:** Possuir navegação entre seções da página
 - **RF03:** Apresentar uma seção inicial com chamada principal
-- **RF04:** Disponibilizar um formulário de contato
-- **RF05:** Coletar nome e e-mail no formulário
-- **RF06:** Exibir confirmação visual após envio do formulário
+- **RF04:** Disponibilizar lista de cadastros
+- **RF05:** Coletar nome, idade e turma no formulário
+- **RF06:** Exibir lista de alunos 
 
 ## REQUISITOS NÃO FUNCIONAIS
 
 - **RNF01:** Layout responsivo
-- **RNF02:** Utilizar cores associadas à sustentabilidade
+- **RNF02:** Utilizar cores associadas ao logon da universidade Azul/Branco
 - **RNF03:** Código HTML válido
 - **RNF04:** Projeto versionado e gerenciado via GitHub
 
