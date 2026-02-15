@@ -28,7 +28,7 @@ Histórico:
 -Commits estruturados com Conventional Commits.
 
 Mudanças:
--Registradas neste README e no Kanban. Como Visualizar
+-Registradas neste README e no Kanban. acréscimo da lista de fornecedores no final da pagina 
 
 Clone o repositório:
 -git clone -Abra index.html em um navegador.
