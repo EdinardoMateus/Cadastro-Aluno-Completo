@@ -1,12 +1,12 @@
 Cadastro de Alunos 
 
-Cadastro via web solicitado pela Escola de Engemharia 
+Cadastro via web solicitado pela startup de logística
 
 Objetivo
-Desenvolver uma pagina web  para a Unifecaf que esta criando uma unidade de Engenharia para cadastrar seu alunos 
+Desenvolver uma pagina web  para a empresa logistica que esta criando uma unidade de cadastrar seu afornecedores. 
 
 Escopo
--Header fixo com navegação. -Seção inicial com chamada para ação (CTA). -Cadastro de Alunos . -Design responsivo básico.
+-Header fixo com navegação. -Seção inicial com chamada para ação (CTA). -Cadastro de Fornecedor . -Design responsivo básico.
 
 Tecnologias
 -HTML5, CSS3, JavaScript.

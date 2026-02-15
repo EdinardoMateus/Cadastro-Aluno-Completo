@@ -1,14 +1,14 @@
-const form = document.getElementById('formAluno');
-const lista = document.getElementById('listaAlunos');
+const form = document.getElementById('formFornecedor');
+const lista = document.getElementById('listaFornecedores');
 const toggleBtn = document.getElementById('toggleLista');
 const limparBtn = document.getElementById('limparLista');
 
 form.addEventListener('submit', function(event) {
   event.preventDefault();
   
-  const nome = document.getElementById('nome').value;
-  const idade = document.getElementById('idade').value;
-  const turma = document.getElementById('turma').value.trim();
+  const nome = document.getElementById('nomeFornecedor').value;
+  const idade = document.getElementById('idadeFornecedor').value;
+  const turma = document.getElementById('turmaFornecedor').value.trim();
 
   const li = document.createElement('li');
   li.textContent = `${nome} - ${idade} anos - Turma ${turma}`;

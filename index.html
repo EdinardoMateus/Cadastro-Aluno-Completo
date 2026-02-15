@@ -2,45 +2,43 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Cadastro de Alunos</title>
+  <title>Cadastro de Fornecedores do Brasil</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
  <header>
         <nav>
-            <h1> Escola Engenharia de Software Unifecaf </h1>
+            <h1> Startup de logística </h1>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#Cursos">Cursos</a></li>
+                <li><a href="#Fornecedor">Fornecedor</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+                <li><a href="#contato">Contato</a></li>            </ul>
         </nav>
     </header><br>
 
-  <h3>Escola Engenharia de Software Unifecaf</h3>
-  <h1>Cadastro de Alunos</h1>
+  <h3>Cadastro de Fornecedores do Brasil</h3>
+  <h1>Cadastro de Fornecedores</h1>
   
-  <form id="formAluno">
-    <label>Nome: <input type="text" id="nome" required></label><br>
-    <label>Idade: <input type="number" id="idade" required></label><br>
-    <label>Turma: <input type="text" id="turma" required></label><br>
+  <form id="formFornecedor">
+    <label>Nome: <input type="text" id="nomeFornecedor" required></label><br>
+    <label>Idade: <input type="number" id="idadeFornecedor" required></label><br>
+    <label>Turma: <input type="text" id="turmaFornecedor" required></label><br>
     <button type="submit">Cadastrar</button>
   </form>
 
-  <h2>Lista de Alunos</h2>
+  <h2>Lista de Fornecedores</h2>
   <button id="toggleLista">Mostrar/Esconder Lista</button>
   <button id="limparLista">Limpar Lista</button>
-  <ul id="listaAlunos"></ul>
+  <ul id="listaFornecedores"></ul>
 
 <section id="sobre">
   <p><h2>Sobre Nós</h2></p>
         <p>Edinardo Mateus RA:136944.</p>
         <p>UniFECAF - Engenharia da Computação.</p>
-        <p>Escola Engenharia de Software Unifecaf.</p>
+        <p>Cadastro de Fornecedores.</p>
         <p>Taboão da Serra 2026.</p>
-        <p><a href="https://www.unifecaf.com.br">UniFECAF</a></p>
 </section>
 </body>
 </html>
